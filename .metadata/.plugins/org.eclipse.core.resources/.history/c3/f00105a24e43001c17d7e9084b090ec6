@@ -1,0 +1,31 @@
+package code_marcio.selenium.webdriver.basic;
+
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ExampleTest03 {
+
+	public static WebDriver driver = null;
+			
+	public static void main(String[] args) throws InterruptedException
+	{	
+		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		driver.navigate().to("https://www.youtube.com/");
+		
+		driver.findElement(By.name("search_query")).sendKeys("Deep Purple - Smoke on The Water");
+		driver.findElement(By.id("search-icon-legacy")).click();
+		
+		driver.manage().window().maximize();
+		
+		
+		driver.findElement(By.id("dismissible")).click();
+	}
+}
