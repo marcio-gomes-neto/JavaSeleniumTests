@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;code_marcio.selenium.webdriver.basic.launchbrowser&apos; to &apos;ExampleTest01&apos;&#x0D;&#x0A;- Original project: &apos;selenium_java&apos;&#x0D;&#x0A;- Original element: &apos;code_marcio.selenium.webdriver.basic.launchbrowser&apos;&#x0D;&#x0A;- Renamed element: &apos;code_marcio.selenium.webdriver.basic.ExampleTest01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;launchbrowser&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;code_marcio.selenium.webdriver.basic{launchbrowser.java[launchbrowser" matchStrategy="1" name="ExampleTest01" qualified="false" references="true" similarDeclarations="false" stamp="1636675159314" textual="false" version="1.0"/>
+</session>
