@@ -42,7 +42,7 @@ public class ExampleTest03 {
 		driver.manage().window().maximize();
 		
 		timer.schedule(task, setLoadingDelay);
-		
+		driver.close()
 		
 	}
 }

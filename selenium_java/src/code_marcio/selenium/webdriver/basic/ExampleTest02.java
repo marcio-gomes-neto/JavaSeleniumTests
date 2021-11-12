@@ -24,6 +24,6 @@ public class ExampleTest02 {
 		driver.findElement(By.name("btnK")).click();
 		
 		driver.manage().window().maximize();
-		
+		driver.close()		
 	}
 }
