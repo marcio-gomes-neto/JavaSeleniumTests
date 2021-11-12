@@ -40,7 +40,7 @@ public class ExampleTest01 {
 		}
 			
 		timer.schedule(task, setResizeDelay);
-		driver.close()
+		driver.close();
 	}
 
 }
